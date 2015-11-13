@@ -22,4 +22,9 @@ function addition(n1, n2) {
     return n1 + n2;
 }
 
+// multiplies two inputs. if a string is provided, error code is NaN
+
+function multiply(n1, n2) {
+    return n1 * n2;
+}
 
