@@ -73,3 +73,16 @@ function factorial(num) {
 return result
     }
 }
+
+// checks a given string for the longest word and returns it
+
+function longWord(phrase) {
+    var sort = phrase.split(" ");
+    var longest = "";
+    for (i = 0; i < sort.length; i++) {
+        if (sort[i].length > longest.length) {
+            longest = sort[i]
+        }
+    }
+    return longest;
+}
