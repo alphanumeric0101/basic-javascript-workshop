@@ -121,3 +121,13 @@ function filtered(input){
     }); 
     return pass
 }
+
+// sums all numbers in a given array
+
+function summed(input){
+    var total = 0;
+    for (i = 0; i < input.length; i++){
+        total += input[i];
+    }
+    return total;
+}
