@@ -59,3 +59,17 @@ function flipper(phrase) {
     }
 return flipped
 }
+
+
+// this function returns the factorial of a given number
+
+function factorial(num) {
+    if (num === 0) {return 1}
+    else {
+    var result = num;
+    for (num; num > 1; num--) {
+         result = result * (num - 1);
+        }
+return result
+    }
+}
