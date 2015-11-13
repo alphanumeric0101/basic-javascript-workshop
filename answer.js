@@ -48,3 +48,14 @@ function parrot(phrase, num) {
     }
 return parroted.join(" ")
 }
+
+//this function reverses a given string so it reads backwards
+
+function flipper(phrase) {
+    var flipped = ""; 
+    var count = phrase.length - 1;
+    for (i = count; i > -1; i--) { 
+        flipped += phrase[i];
+    }
+return flipped
+}
