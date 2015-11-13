@@ -15,3 +15,11 @@ function lastLetter(input) {
 function indexOfString(str, num) {
     return str[num];
 }
+
+//adds two numbers. if a string is provided, it concatenates to the other input.
+
+function addition(n1, n2) {
+    return n1 + n2;
+}
+
+
