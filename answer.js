@@ -38,3 +38,13 @@ function calcULater(n1, n2, oper) {
             else if (oper === 'div') {return n1 / n2;}
     else return 0
 }
+
+// this function takes a phrase and a number and repeats that phrase the number of times provided
+
+function parrot(phrase, num) {
+    var parroted = [];
+    for (i = 0; i < num; i++) { 
+        parroted.push(phrase);
+    }
+return parroted.join(" ")
+}
