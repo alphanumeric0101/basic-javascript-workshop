@@ -3,3 +3,5 @@
 function firstLetter(input) {
     return input[0];
 }
+
+//
