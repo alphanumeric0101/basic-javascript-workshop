@@ -86,3 +86,14 @@ function longWord(phrase) {
     }
     return longest;
 }
+
+//fucntion to capitalize each first letter of a given phrase
+
+function capitalize(phrase) {
+    var sort = phrase.split(" ");
+    var capitalized = [];
+    for (i = 0; i < sort.length; i++) {
+        capitalized.push(sort[i].charAt(0).toUpperCase() + sort[i].substr(1));
+            }
+    return capitalized.join(" ");
+}
