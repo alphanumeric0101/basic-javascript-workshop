@@ -109,3 +109,15 @@ function bigNum(num) {
     }
     return biggest;
 }
+
+// takes an array and returns a new array out of the truthy elements of the first
+
+function filtered(input){
+    var pass = [];
+    input.filter(function(val){
+        if (val == true) {
+            pass.push(val);    
+        }
+    }); 
+    return pass
+}
