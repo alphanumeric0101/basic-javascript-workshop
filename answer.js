@@ -28,3 +28,13 @@ function multiply(n1, n2) {
     return n1 * n2;
 }
 
+// takes two numbers and calculates the result of a given operation
+// if operand is malformatted or missing, function returns 0
+
+function calcULater(n1, n2, oper) {
+    if (oper === 'add') {return n1 + n2;}
+    else if (oper === 'subtract') {return n1 - n2;}
+        else if (oper === 'mult') {return n1 * n2;}
+            else if (oper === 'div') {return n1 / n2;}
+    else return 0
+}
