@@ -97,3 +97,15 @@ function capitalize(phrase) {
             }
     return capitalized.join(" ");
 }
+
+// find the largest number in an array
+
+function bigNum(num) {
+    var biggest = 0;
+    for (i = 0; i < num.length; i++) {
+        if (num[i] > biggest) {
+            biggest = num[i];
+        }
+    }
+    return biggest;
+}
