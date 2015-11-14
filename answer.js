@@ -131,3 +131,22 @@ function summed(input){
     }
     return total;
 }
+
+//Compares two arrays and returns a new array consisting of only those elements that were not present in the other array
+
+function uniq(ar1,ar2){
+    var hipsters = [];
+    
+    for (i=0;i<ar1.length;i++){
+         if (ar2.indexOf(ar1[i]) === -1 && hipsters.indexOf(ar1[i]) === -1){
+        hipsters.push(ar1[i]);
+        }
+    }
+    
+    for (i=0;i<ar2.length;i++){
+        if (ar1.indexOf(ar2[i]) === -1 && hipsters.indexOf(ar1[i]) === -1){
+            hipsters.push(ar2[i]);
+        }
+    }
+    return hipsters;
+}
